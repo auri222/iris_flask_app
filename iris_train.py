@@ -32,4 +32,4 @@ clf.fit(X_train, y_train)
 
 #print("Accuracy: %.3f" %clf.score(X_test, y_test))
 
-pickle.dump(clf, open('B1709603_NguyenThiPhuongLinh_train.pkl', 'wb'))
+pickle.dump(clf, open('iris.pkl', 'wb'))

@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import pickle
 import numpy as np
 
-model = pickle.load(open('B1709603_NguyenThiPhuongLinh_train.pkl', 'rb'))
+model = pickle.load(open('iris.pkl', 'rb'))
 
 app = Flask(__name__)
 
