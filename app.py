@@ -4,6 +4,8 @@ import numpy as np
 
 model = pickle.load(open('iris.pkl', 'rb'))
 
+#Trong Procfile app:app => app đầu là tên file app.py
+#                       => app kế là tên được gán cho Flask bên dưới
 app = Flask(__name__)
 
 @app.route("/")
